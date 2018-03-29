@@ -11,4 +11,17 @@
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+
+  <div padding>
+  <ion-item>
+  
+    <ion-label fixed>Full Name</ion-label>
+    <ion-input type="text" value="" id="fullname" [(ngModel)]="fullname"></ion-input>
+  
+  </ion-item>
+  </div>
+  
+  <div padding>
+  <button ion-button color="dark" (click)="presentModal()" outline>Check Thirsty Message</button>
+   </div>
 </ion-content>
